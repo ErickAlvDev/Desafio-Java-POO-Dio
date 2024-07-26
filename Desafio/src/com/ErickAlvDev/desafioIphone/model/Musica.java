@@ -44,4 +44,14 @@ public class Musica {
     public void setDuracao(int duracao) {
         this.duracao = duracao;
     }
+
+    @Override
+    public String toString() {
+        return "Musica { " +
+                "autor:" + autor +
+                ", nome: " + nome +
+                ", album: " + album +
+                ", duracao: " + duracao + " minutos" +
+                '}';
+    }
 }

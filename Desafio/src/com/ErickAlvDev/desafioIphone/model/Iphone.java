@@ -12,7 +12,7 @@ public class Iphone  implements ReprodutorMusical, ServicoTelefonico, NavegadorI
 
     @Override
     public void exibirPagina(String url) {
-        System.out.println("Carregando pagina..." + url);
+        System.out.println("Carregando pagina: " + url);
     }
 
     @Override
